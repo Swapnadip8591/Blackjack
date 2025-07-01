@@ -1,6 +1,6 @@
 let player = {
     name: "Dip",
-    chips: 200
+    chips: 100
 }
 
 let cards = []
@@ -31,7 +31,7 @@ function getRandomCard() {
 }
 
 function startGame() {
-    if (player.chips===0){
+    if (player.chips<20){
         messageEl.textContent = "You are broke, you can refresh browser!!"
     } else {
         if(isAlive===false || hasBlackJack===true){
@@ -41,7 +41,7 @@ function startGame() {
             let secondCard = getRandomCard()
             cards = [firstCard, secondCard]
             sum = firstCard + secondCard
-            player.chips -= 10
+            player.chips -= 20
             renderGame()
         }
     }
