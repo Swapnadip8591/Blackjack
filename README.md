@@ -1,14 +1,10 @@
 
+# Blackjack
+
 A simple Blackjack game using JavaScript, where the goal is to draw total number of 21 by pulling cards.
 
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
+
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
