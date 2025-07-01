@@ -1,3 +1,6 @@
+
+A simple Blackjack game using JavaScript, where the goal is to draw total number of 21 by pulling cards.
+
 # Getting Started
 Install the dependencies and run the project
 ```
