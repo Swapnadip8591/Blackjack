@@ -72,14 +72,10 @@ function renderGame() {
 
 
 function newCard() {
-    if (player.chips===0){
-        messageEl.textContent = "You are broke, you can refresh browser!!"
-    } else {
-        if (isAlive === true && hasBlackJack === false) {
-            let card = getRandomCard()
-            sum += card
-            cards.push(card)
-            renderGame()
-        }       
-    }
+    if (isAlive === true && hasBlackJack === false) {
+        let card = getRandomCard()
+        sum += card
+        cards.push(card)
+        renderGame()
+    }      
 }
